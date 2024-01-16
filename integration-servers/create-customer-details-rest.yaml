@@ -9,10 +9,6 @@ metadata:
       - bar-name: bar-1
         projects:
           - app-1
-          - app-2
-      - bar-name: bar-2
-        projects:
-          - app-3
 spec:
   designerFlowsOperationMode: disabled
   license:
