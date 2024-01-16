@@ -8,7 +8,8 @@ metadata:
     ab-bars:
       - bar-name: bar-1
         projects:
-          - app-1
+          - createcustomer
+          - createcustomerJava
 spec:
   designerFlowsOperationMode: disabled
   license:
