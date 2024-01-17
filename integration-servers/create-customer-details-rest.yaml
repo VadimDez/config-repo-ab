@@ -10,10 +10,6 @@ metadata:
         projects:
           - createcustomer
           - createcustomerJava
-      - bar-name: bar-2
-        projects:
-          - createcustomer
-          - createcustomerJava
 spec:
   designerFlowsOperationMode: disabled
   license:
