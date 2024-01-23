@@ -5,6 +5,12 @@ metadata:
   namespace: vadym
   annotations:
     ab-image-name: "ab-is-image"
+    ab-bars-yaml: |
+      - bar-name: bar-1
+        projects:
+          - createcustomer
+          - createcustomerJava
+
     ab-bars:
       - bar-name: bar-1
         projects:
@@ -14,7 +20,7 @@ spec:
   designerFlowsOperationMode: disabled
   license:
     accept: true
-    license: L-UTKS-P46KK2
+    license: L-UAZF-8ZYQDD
     use: AppConnectEnterpriseNonProductionFREE
   replicas: 1
   router:
@@ -22,7 +28,7 @@ spec:
   service:
     endpointType: http
   useCommonServices: true
-  version: 12.0.10.0-r1-lts
+  version: 12.0.10.0-r3
   adminServerSecure: true
   pod:
     containers:
