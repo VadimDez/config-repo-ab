@@ -10,12 +10,6 @@ metadata:
         projects:
           - createcustomer
           - createcustomerJava
-
-    ab-bars:
-      - bar-name: bar-1
-        projects:
-          - createcustomer
-          - createcustomerJava
 spec:
   designerFlowsOperationMode: disabled
   license:
